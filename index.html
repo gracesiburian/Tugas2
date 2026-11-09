@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Informasi Kampus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header>
+            <h1>Portal Informasi Kampus</h1>
+            <p>Media Informasi dan Kegiatan Mahasiswa</p>
+        </header>
+
+        <!-- Bagian Konten -->
+        <div class="content">
+
+            <!-- Aside -->
+            <aside>
+                <h3>Informasi Kampus</h3>
+                <p>Selamat datang di portal informasi kampus.</p>
+                <p>Temukan berbagai informasi akademik dan kegiatan mahasiswa di sini.</p>
+            </aside>
+
+            <!-- Navigation -->
+            <nav>
+                <h3>Menu Utama</h3>
+                <a href="#beranda">Beranda</a>
+                <a href="#jadwal">Jadwal Kuliah</a>
+                <a href="#kegiatan">Kegiatan Mahasiswa</a>
+                <a href="#kontak">Kontak</a>
+            </nav>
+
+            <!-- Main -->
+            <main id="beranda">
+
+                <h2>Selamat Datang!</h2>
+                <p>
+                    Website ini menyediakan informasi mengenai
+                    jadwal perkuliahan dan kegiatan mahasiswa.
+                </p>
+
+                <section id="jadwal">
+                    <h3>Jadwal Perkuliahan</h3>
+
+                    <table>
+                        <tr>
+                            <th>Hari</th>
+                            <th>Mata Kuliah</th>
+                            <th>Jam</th>
+                        </tr>
+
+                        <tr>
+                            <td>Senin</td>
+                            <td>Pemrograman Web</td>
+                            <td>08.00</td>
+                        </tr>
+
+                        <tr>
+                            <td>Selasa</td>
+                            <td>Basis Data</td>
+                            <td>10.00</td>
+                        </tr>
+
+                        <tr>
+                            <td>Rabu</td>
+                            <td>Matematika Diskrit</td>
+                            <td>13.00</td>
+                        </tr>
+                    </table>
+                </section>
+
+                <section id="kegiatan">
+                    <h3>Kegiatan Mahasiswa</h3>
+                    <p>
+                        Ikuti kegiatan organisasi, seminar,
+                        dan berbagai aktivitas kampus untuk
+                        menambah pengalaman.
+                    </p>
+
+                    <button onclick="tampilkanInfo()">
+                        Lihat Informasi
+                    </button>
+
+                    <p id="pesan"></p>
+                </section>
+
+            </main>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="kontak">
+            <p>Portal Informasi Kampus</p>
+            <p>Email: informasikampus@email.com</p>
+            <p>&copy; 2026 Portal Kampus</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
